@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Game_Tic_Tac_Toe
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void PnlChessBoard_Paint(object sender, PaintEventArgs e)
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                Button btn = new Button()
+                {
+                    Width = ConstantVariables.CHESS_BOX_WIDTH,
+                    Height = ConstantVariables.CHESS_BOX_HEIGTH
+                };
+                pnlChessBoard.Controls.Add(btn);
+            }
+        }
+    }
+}

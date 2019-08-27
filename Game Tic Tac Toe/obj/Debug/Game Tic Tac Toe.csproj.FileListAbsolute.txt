@@ -1,0 +1,10 @@
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\bin\Debug\Game Tic Tac Toe.exe.config
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\bin\Debug\Game Tic Tac Toe.exe
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\bin\Debug\Game Tic Tac Toe.pdb
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game Tic Tac Toe.csprojAssemblyReference.cache
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game_Tic_Tac_Toe.Form1.resources
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game_Tic_Tac_Toe.Properties.Resources.resources
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game Tic Tac Toe.csproj.GenerateResource.cache
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game Tic Tac Toe.csproj.CoreCompileInputs.cache
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game Tic Tac Toe.exe
+D:\2_UNIVERSITY OF SCIENCE\1_Code\3_My Project\C#\Game Tic Tac Toe\Game Tic Tac Toe\obj\Debug\Game Tic Tac Toe.pdb
