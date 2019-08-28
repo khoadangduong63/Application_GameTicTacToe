@@ -9,6 +9,6 @@ namespace Game_Tic_Tac_Toe
     public class ConstantVariables
     {
         public const int CHESS_BOX_WIDTH = 30;
-        public const int CHESS_BOX_HEIGTH = 30;
+        public const int CHESS_BOX_HEIGHT = 30;
     }
 }

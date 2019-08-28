@@ -15,18 +15,35 @@ namespace Game_Tic_Tac_Toe
         public Form1()
         {
             InitializeComponent();
+            DrawChessBoard();
         }
 
-        private void PnlChessBoard_Paint(object sender, PaintEventArgs e)
+        void DrawChessBoard()
         {
-            for(int i = 0; i < 10; i++)
+            Button prevButton = new Button()
             {
-                Button btn = new Button()
+                Width = 0,
+                Location = new Point(0, 0)
+            };
+
+            for (int row = 0; row < 15; row++)
+            {
+                for (int col = 0; col < 20; col++)
                 {
-                    Width = ConstantVariables.CHESS_BOX_WIDTH,
-                    Height = ConstantVariables.CHESS_BOX_HEIGTH
-                };
-                pnlChessBoard.Controls.Add(btn);
+                    Button nowButton = new Button()
+                    {
+                        Width = ConstantVariables.CHESS_BOX_WIDTH,
+                        Height = ConstantVariables.CHESS_BOX_HEIGHT,
+                        Location = new Point(prevButton.Location.X + prevButton.Width, prevButton.Location.Y)
+                    };
+
+
+                    pnlChessBoard.Controls.Add(nowButton);
+                    prevButton = nowButton;
+                }
+                prevButton.Location = new Point(0, prevButton.Location.Y + ConstantVariables.CHESS_BOX_HEIGHT);
+                prevButton.Width = 0;
+                prevButton.Height = 0;
             }
         }
     }
