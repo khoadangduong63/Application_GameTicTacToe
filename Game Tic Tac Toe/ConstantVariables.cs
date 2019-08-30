@@ -8,7 +8,10 @@ namespace Game_Tic_Tac_Toe
 {
     public class ConstantVariables
     {
-        public const int CHESS_BOX_WIDTH = 30;
-        public const int CHESS_BOX_HEIGHT = 30;
+        public static int CHESS_BOX_WIDTH = 30;
+        public static int CHESS_BOX_HEIGHT = 30;
+
+        public static int CHESS_BOARD_ROW = 15;
+        public static int CHESS_BOARD_COLUMN = 20;
     }
 }
